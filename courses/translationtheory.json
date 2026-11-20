@@ -1,0 +1,304 @@
+{
+  "title": "Translation Theory",
+  "description": "From equivalence to functionalist and sociological approaches.",
+  "sessions": [
+    {
+      "title": "Session 1: What Is Translation?",
+      "lectures": [
+        {
+          "title": "Defining the Field",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Translation vs. Interpretation"
+            },
+            {
+              "type": "text",
+              "text": "Written vs. spoken; literary vs. technical."
+            },
+            {
+              "type": "image",
+              "src": "assets/translation-theory/session-1-translation-spectrum.png",
+              "alt": "Translation Continuum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 2: Equivalence Theories",
+      "lectures": [
+        {
+          "title": "Nida, Catford, and Jakobson",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Formal vs. Dynamic Equivalence"
+            },
+            {
+              "type": "text",
+              "text": "Linguistic, referential, and pragmatic equivalence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 3: Skopos Theory",
+      "lectures": [
+        {
+          "title": "Purpose-Driven Translation",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Vermeer and Reiss"
+            },
+            {
+              "type": "text",
+              "text": "The function of the target text determines the translation strategy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 4: Descriptive Translation Studies",
+      "lectures": [
+        {
+          "title": "Even-Zohar and Toury",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Norms and Systems"
+            },
+            {
+              "type": "text",
+              "text": "How translations reflect and shape literary systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 5: Feminist Translation",
+      "lectures": [
+        {
+          "title": "Gender and Voice",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Visibility of the Translator"
+            },
+            {
+              "type": "text",
+              "text": "Strategies like supplementing, prefacing, and hijacking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 6: Postcolonial Translation",
+      "lectures": [
+        {
+          "title": "Power, Identity, and Resistance",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Spivak, Niranjana, and Bhabha"
+            },
+            {
+              "type": "text",
+              "text": "Translation as cultural negotiation in colonial contexts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 7: Literary Translation",
+      "lectures": [
+        {
+          "title": "Style, Voice, and Creativity",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Translating Poetry and Prose"
+            },
+            {
+              "type": "text",
+              "text": "Balancing fidelity and aesthetic effect."
+            },
+            {
+              "type": "image",
+              "src": "assets/translation-theory/session-7-literary-excerpt.png",
+              "alt": "Parallel Literary Texts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 8: Audiovisual Translation",
+      "lectures": [
+        {
+          "title": "Subtitling, Dubbing, and Voice-Over",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Constraints of Time and Space"
+            },
+            {
+              "type": "text",
+              "text": "Cultural adaptation in film and TV localization."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 9: Machine Translation and Post-Editing",
+      "lectures": [
+        {
+          "title": "From Rule-Based to Neural MT",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Human-in-the-Loop Translation"
+            },
+            {
+              "type": "text",
+              "text": "Quality estimation and post-editing workflows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 10: Ethics in Translation",
+      "lectures": [
+        {
+          "title": "Responsibility and Representation",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Translator’s Code of Ethics"
+            },
+            {
+              "type": "text",
+              "text": "Accuracy, confidentiality, and cultural sensitivity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 11: Translation and Terminology",
+      "lectures": [
+        {
+          "title": "Building Consistent Glossaries",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Terminology Management"
+            },
+            {
+              "type": "text",
+              "text": "Use of tools like SDL MultiTerm and TermBase eXchange."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 12: Localization and Globalization",
+      "lectures": [
+        {
+          "title": "Beyond Translation",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Adapting Products for Global Markets"
+            },
+            {
+              "type": "text",
+              "text": "Date formats, currencies, cultural references, and UI strings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 13: Interpreting Modes",
+      "lectures": [
+        {
+          "title": "Simultaneous, Consecutive, Liaison",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Cognitive Demands and Settings"
+            },
+            {
+              "type": "text",
+              "text": "Conference, community, and medical interpreting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 14: Translation Criticism",
+      "lectures": [
+        {
+          "title": "Evaluating Translations",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Criteria and Frameworks"
+            },
+            {
+              "type": "text",
+              "text": "Using checklists based on function, audience, and fidelity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 15: Translator Training",
+      "lectures": [
+        {
+          "title": "From Theory to Practice",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Competence Models"
+            },
+            {
+              "type": "text",
+              "text": "PACTE and EMT frameworks for professional development."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Session 16: Capstone – Annotated Translation Portfolio",
+      "lectures": [
+        {
+          "title": "Reflective Translation Practice",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Theory-Informed Translation"
+            },
+            {
+              "type": "text",
+              "text": "Students submit translations with critical commentaries."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

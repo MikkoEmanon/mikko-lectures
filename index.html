@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mikko's Lectures</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="course-selection" class="course-selection">
+      <h1>Mikko's Lectures</h1>
+      <div id="course-list"></div>
+    </div>
+
+    <div id="course-viewer" class="course-viewer hidden">
+      <button id="back-btn" class="back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Courses
+      </button>
+      <div class="layout">
+        <main id="main-content" class="main-content">
+          <h2 id="course-title"></h2>
+          <div id="content-area"></div>
+        </main>
+        <aside class="sidebar">
+          <div id="accordion"></div>
+        </aside>
+      </div>
+    </div>
+
+    <div id="passcode-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-course-title">
+      <div class="modal-content">
+        <h3 id="modal-course-title"></h3>
+        <input type="password" id="passcode-input" placeholder="Enter passcode" autocomplete="off" />
+        <div class="modal-actions">
+          <button id="cancel-btn">Cancel</button>
+          <button id="submit-passcode">Enter</button>
+        </div>
+        <p id="error-msg" class="error hidden" role="alert">Incorrect passcode</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:michail.f@miu.edu.mn">michail.f@miu.edu.mn</a>
+      </span>
+      <span class="footer-separator">•</span>
+      <span class="footer-item">
+        <i class="fas fa-globe"></i>
+        <a href="https://mikkoemanon.github.io/CV/#about" target="_blank">https://mikkoemanon.github.io/CV/#about</a>
+      </span>
+    </div>
+  </footer>
+
+<script data-goatcounter="https://mikko.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
