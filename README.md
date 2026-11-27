@@ -11,13 +11,11 @@ Lecture notes for my courses. Pick a course, enter the passcode I gave you if ap
 - If a course won't open, try a different browser or clear your site data.
 - The content is updated after each lecture!
 
-## Courses
+## Courses for this semester
 
-| Course | Link |
-|---|---|
-| History of the English Language | https://mikkoemanon.github.io/mikko-lectures/#history-english |
-| Philosophy of Education | https://mikkoemanon.github.io/mikko-lectures/#philosophy-education |
-| Cultural Studies | https://mikkoemanon.github.io/mikko-lectures/#culturalstudies |
+- History of the English Language
+- Philosophy of Education
+- Cultural Studies
 
 ## Questions?
 
