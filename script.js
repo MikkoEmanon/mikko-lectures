@@ -152,7 +152,7 @@ async function loadCourses() {
     await ensureSession();
     const [coursesRes, accessRes] = await Promise.all([
       sb.from("lms_courses")
-        .select("id,title,description")
+        .select("*") // includes external_url when present
         .eq("published", true)
         .order("sort_order")
         .order("title"),
@@ -185,8 +185,11 @@ function showNotice(msg) {
 }
 
 function renderCourseCard(course) {
-  const card = document.createElement("div");
+  // Courses with an external_url are plain links (same tab, no passcode, no icon).
+  const url = /^https?:\/\//i.test(course.external_url || "") ? course.external_url : "";
+  const card = document.createElement(url ? "a" : "div");
   card.className = "course-card";
+  if (url) card.href = url;
 
   const h = document.createElement("h3");
   h.textContent = course.title;
@@ -194,10 +197,12 @@ function renderCourseCard(course) {
   p.textContent = course.description || "";
   card.append(h, p);
 
-  makeClickable(card, () => {
-    if (unlocked.has(course.id)) navigate(course.id, 0, 0);
-    else showPasscodeModal(course);
-  });
+  if (!url) {
+    makeClickable(card, () => {
+      if (unlocked.has(course.id)) navigate(course.id, 0, 0);
+      else showPasscodeModal(course);
+    });
+  }
   courseListEl.appendChild(card);
 }
 
@@ -296,7 +301,7 @@ async function route() {
   if (!id) return showCourseList();
 
   const course = courses.find(c => c.id === id);
-  if (!course) return showCourseList();
+  if (!course || course.external_url) return showCourseList();
 
   if (!unlocked.has(id)) {
     showCourseList();
@@ -474,9 +479,6 @@ function showLecture(secIdx, lecIdx) {
   window.scrollTo({ top: 0 });
 }
 
-/* ------------------------------------------------------------------ *
- * BOOT
- * ------------------------------------------------------------------ */
 (async function boot() {
   initTheme();
   injectThemeToggle();
