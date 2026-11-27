@@ -473,3 +473,12 @@ a.course-card{display:block;color:inherit;text-decoration:none}
 @media (hover:none){
   .course-card:hover{transform:none}
 }
+
+/* ---- theme toggle: keep the moon/sun visible on hover ---- */
+.theme-toggle-btn i,
+:root[data-theme="dark"] .theme-toggle-btn i{color:inherit;margin:0}
+.theme-toggle-btn:hover{
+  background:rgba(255,255,255,.18);
+  color:#fff;
+  transform:rotate(-15deg);
+}
